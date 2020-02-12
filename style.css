@@ -1,3 +1,5 @@
+/* font should be sans seriff */
+
 body, html,.container{
     height: 100%;
     
@@ -19,6 +21,7 @@ header, article, nav, section, footer, span
     grid-row:1 ;
      
 }
+/* text should be left justified */
 #article1{
     grid-column:1/5 ;
     grid-row:3 ;
@@ -26,6 +29,7 @@ header, article, nav, section, footer, span
     
 
 }
+/* text should be left justified */
 #article2{
     grid-column: 1/4;
     grid-row: 4
@@ -40,7 +44,7 @@ header, article, nav, section, footer, span
     
     }
     
-    
+/* the login "button" should have padding */
 #section2{
     grid-column:3/5 ;
     grid-row: 5;
@@ -65,6 +69,7 @@ header, article, nav, section, footer, span
     color: gray;
     
 }
+/* the border should not go all the way to the top of the page, top and bottom margin would fix this */
 #span{
     grid-column:4/5 ;
     grid-row: 4;
